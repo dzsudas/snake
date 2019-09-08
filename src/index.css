@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  height: 15px;
+  width: 15px;
+  border-radius: 0;
+  appearance: none;
+}
+
+button.active {
+  background-color: #00a86b;
+
 }
